@@ -200,6 +200,8 @@ string encode_(string a) {
 ### 数据接收打印
 
 ```C++
+	/*输出由IDL_TypeSupport.h控制*/
+
 	std::cout<<c<<"UserDataType:"<<std::endl;
 	std::cout<<c<<"  data = "<< pUserDataType->data <<std::endl;
 	std::cout<<c<<"  encode_data = "<< pUserDataType->encode_data <<std::endl;
